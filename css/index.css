@@ -439,16 +439,21 @@ a{
     margin: 11px 10px 11px;
     font-size:12px;
 }
-.da .right .center p{
+.da .right .center a{
     width: 150px;
     height: 40px;
     word-break: break-all;
-    text-align: center;
-}
-.da .right .center p a{
     color:#333;
     display: block;
-    padding-top:8px;
+    overflow: hidden;
+    line-height: 20px;
+    padding: 0 7px 0;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.da .right .center a:hover{
+    color: #FE660A;
 }
 .da .da1 .da3{
     width:830px;
