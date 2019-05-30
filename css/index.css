@@ -1564,10 +1564,10 @@ a{
 .jiadian .jiadz .datu img{
     width: 190px;
     height: 360px;
-    opacity: 0.9;
+    opacity: 1;
 }
 .jiadian .jiadz .datu img:hover{
-    opacity: 1;
+    opacity: 0.9;
 }
 .jiadian .jiadz .datu .hezi{
     position: relative;
